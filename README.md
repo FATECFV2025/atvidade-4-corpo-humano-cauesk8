@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/RPHb6JFs)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=20968392&assignment_repo_type=AssignmentRepo)
 # Atividade 4 - Classe e Objeto
 
 
@@ -60,3 +62,9 @@
 ## Feedback 📨
 -  Sua atividade receberá uma pontuação de 0 a 10, que compõe a Nota de Atividades da ATV1;
 -  A nota será atribuída no Microsoft Teams
+
+1 O atributo massa é privado, portanto não pode ser acessado diretamente fora da classe.
+
+2 Agora o código compila e executa normalmente. O atributo massa se tornou público, então pode ser acessado fora da classe.
+
+3 O código não compila se houver alguma chamada externa a esse método. O método se tornou privado, portanto só pode ser usado dentro da própria classe, impedindo o uso do setter.
