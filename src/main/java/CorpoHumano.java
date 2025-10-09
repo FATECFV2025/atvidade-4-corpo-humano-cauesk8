@@ -1,8 +1,6 @@
 package main.java;
 import java.util.Scanner;
- 
 public class CorpoHumano {
- 
     private double massa;
     private double volume;
     private double densidade;
