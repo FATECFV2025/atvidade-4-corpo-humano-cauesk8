@@ -62,3 +62,9 @@
 ## Feedback 📨
 -  Sua atividade receberá uma pontuação de 0 a 10, que compõe a Nota de Atividades da ATV1;
 -  A nota será atribuída no Microsoft Teams
+
+1 O atributo massa é privado, portanto não pode ser acessado diretamente fora da classe.
+
+2 Agora o código compila e executa normalmente. O atributo massa se tornou público, então pode ser acessado fora da classe.
+
+3 O código não compila se houver alguma chamada externa a esse método. O método se tornou privado, portanto só pode ser usado dentro da própria classe, impedindo o uso do setter.
